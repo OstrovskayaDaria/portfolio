@@ -219,11 +219,11 @@ footer ul li:active {
 }
 
 .easy_go_img:hover {
-  background-image: img/easy_gopainteg.svg;
+  background-image: url("../img/easy_gopainteg.svg");
 }
 
 .readymag_pocket_total:hover {
-  background-image: url("img/pocketpainted.svg");
+  background-image: url("../img/pocketpainted.svg");
 }
 
 
