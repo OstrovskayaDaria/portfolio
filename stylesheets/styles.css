@@ -24,9 +24,6 @@ header {
   font-weight: 900;
 }
 
-
-
-
 nav {
   position: sticky;
   position: -webkit-sticky;
@@ -52,7 +49,7 @@ nav ul {
   align-items: center;
 }
 
-ul li a {
+.main_menu ul li a {
   text-decoration: none;
 
   color: #000000;
@@ -102,35 +99,79 @@ h3 {
   font-weight: bold;
 }
 
-
-
 .readymag_pocket_total {
+  position: relative;
+
   height: 550px;
 
   border: 12px solid;
   border-color: #000000;
-  background: #FFF;
+  background-color: #FFF;
+}
+
+.readymag_pocket_total::after {
+  position: absolute;
+  top: 92px;
+  left: 57vw;
+
+  content: url("../img/pocketb+w.svg");
 }
 
 .readymag_pocket_text {
-  padding-top: 10vh;
-}
-
-.readymag_pocket_pocket {
   padding-top: 14vh;
 }
 
+.readymag_pocket_total:hover {
+  content: url("../img/pocketpainted.svg");
+
+  color: #fff;
+}
+
+.skills_fade {
+  margin-top: 10px;
+
+  color: #252525;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+
+  color: #000000;
+}
+
 .dada_cover_total, .merz_cover_total {
+  position: relative;
+
   height: 226px;
   margin-top:55px;
 
   border: 12px solid;
   border-color: #000000;
-  background: #FFF;
+  background-color: #fff;
 }
 
-.dada_cover_text, .merz_cover_text {
-  padding-top: 86px;
+.info_block_dada, .info_block_merz {
+  padding-top: 10vh;
+}
+
+.dada_cover_total::after, .merz_cover_total::after {
+  position: absolute;
+  top: 85px;
+  left: 470px;
+
+  content: url("../img/arrow.svg");
+}
+
+.dada_cover_total:hover, .dada_cover_total:active, .merz_cover_total:hover, .merz_cover_total:active {
+  color: #fff;
+  background-color: #8D262F;
+}
+
+.dada_cover_total:hover::after, .merz_cover_total:hover::after {
+  content: url("../img/arrow_white.svg");
 }
 
 .footer_black_block {
@@ -187,11 +228,12 @@ footer ul li:active {
   margin-bottom: 200px;
 }
 
+
+
 #sun,
 #left,
 #mid,
-#right,
-#lines {
+#right {
   transition: fill 300ms ease-out;
 }
 
@@ -209,11 +251,6 @@ footer ul li:active {
   fill: #8D262F;
 }
 
-#right:hover,
-#right.hovered, #lines {
-  stroke: #8D262F;
-}
-
 #sun:hover {
   fill: #F19720;
 }
@@ -226,18 +263,6 @@ footer ul li:active {
   background-image: url("../img/trip_logpainted.svg");
 }
 
-.readymag_pocket_total:hover {
-  background-image: url("../img/pocketpainted.svg");
-}
-
-.skills_fade {
-  margin-top: 10px;
-
-  color: #252525;
-
-  font-family: Montserrat, sans-serif;
-  font-size: 25px;
-}
 
 .trip_log_total_block {
   margin-top: 10vh;
