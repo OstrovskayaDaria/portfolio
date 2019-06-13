@@ -218,15 +218,17 @@ footer ul li:active {
   fill: #F19720;
 }
 
-.easy_go_img:hover {
-  background-image: url("../img/easy_gopainteg.svg");
+.easy_go_img img:hover {
+  background-image: url("../img/easy_gopainted.svg");
+}
+
+.trip_log_img img:hover {
+  background-image: url("../img/trip_logpainted.svg");
 }
 
 .readymag_pocket_total:hover {
   background-image: url("../img/pocketpainted.svg");
 }
-
-
 
 .skills_fade {
   margin-top: 10px;
