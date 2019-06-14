@@ -63,6 +63,31 @@ ul li a:hover {
   text-decoration: line-through;
 }
 
+#sun,
+#left,
+#mid,
+#right {
+  transition: fill 300ms ease-out;
+}
+
+#left:hover,
+#left.hovered {
+  fill: #B94B10;
+}
+#mid:hover,
+#mid.hovered {
+  fill: #002C2D;
+}
+
+#right:hover,
+#right.hovered {
+  fill: #8D262F;
+}
+
+#sun:hover {
+  fill: #F19720;
+}
+
 .main-width, .contacts_total_info {
   width: 89vw;
   margin-left: 6vw;
@@ -83,12 +108,21 @@ p {
   line-height: 1.6;
 }
 
-.find_out_more {
+.visit_the_web {
+  position: relative;
+
   margin-top: 30px;
 
   font-family: Montserrat, sans-serif;
   font-size: 30px;
   font-weight: bold;
+}
+
+.visit_the_web::after {
+  position: absolute;
+  left: 17vw;
+
+  content: url("../img/arrow.svg");
 }
 
 h3 {
@@ -106,25 +140,6 @@ h3 {
 
   border: 12px solid;
   border-color: #000000;
-  background-color: #FFF;
-}
-
-.readymag_pocket_total::after {
-  position: absolute;
-  top: 92px;
-  left: 57vw;
-
-  content: url("../img/pocketb+w.svg");
-}
-
-.readymag_pocket_text {
-  padding-top: 14vh;
-}
-
-.readymag_pocket_total:hover {
-  content: url("../img/pocketpainted.svg");
-
-  color: #fff;
 }
 
 .skills_fade {
@@ -134,6 +149,23 @@ h3 {
 
   font-family: Montserrat, sans-serif;
   font-size: 25px;
+}
+
+.skills_fade:hover {
+  color: #fff;
+}
+
+.readymag_pocket_total:hover {
+  color: #fff;
+  background-image: url("../img/painted_pocket.svg");
+}
+
+.readymag_pocket_text {
+  padding-top: 120px;
+}
+
+.readymag_pocket_image {
+  padding-top: 100px;
 }
 
 a {
@@ -228,33 +260,6 @@ footer ul li:active {
   margin-bottom: 200px;
 }
 
-
-
-#sun,
-#left,
-#mid,
-#right {
-  transition: fill 300ms ease-out;
-}
-
-#left:hover,
-#left.hovered {
-  fill: #B94B10;
-}
-#mid:hover,
-#mid.hovered {
-  fill: #002C2D;
-}
-
-#right:hover,
-#right.hovered {
-  fill: #8D262F;
-}
-
-#sun:hover {
-  fill: #F19720;
-}
-
 .easy_go_img img:hover {
   background-image: url("../img/easy_gopainted.svg");
 }
@@ -266,8 +271,4 @@ footer ul li:active {
 
 .trip_log_total_block {
   margin-top: 10vh;
-}
-
-.arrow {
-  padding-top: 10vh;
 }
