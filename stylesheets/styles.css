@@ -160,12 +160,20 @@ h3 {
   background-image: url("../img/painted_pocket.svg");
 }
 
+.readymag_pocket_total:hover img{
+  image: url("../img/arrow_white.svg")
+}
+
 .readymag_pocket_text {
   padding-top: 120px;
 }
 
 .readymag_pocket_image {
   padding-top: 100px;
+}
+
+.readymag_pocket_image img {
+  stroke: #111111;
 }
 
 a {
@@ -219,6 +227,11 @@ footer h2 {
 
 .contacts_total_info {
   color: #fff;
+}
+
+.profile_photo {
+  margin-top: -70px;
+  margin-left: 50%;
 }
 
 footer ul li a {
