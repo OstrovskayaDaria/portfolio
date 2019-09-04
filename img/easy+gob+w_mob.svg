@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="218px" viewBox="0 0 300 218" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="300" height="218"></rect>
+        <ellipse id="path-3" cx="141.894153" cy="148.42361" rx="141.853646" ry="148.223759"></ellipse>
+        <rect id="path-5" x="-32.7504303" y="41.0328947" width="300.130809" height="218.842105"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Copy-11" transform="translate(-10.000000, -368.000000)">
+            <g id="Group-2" transform="translate(10.000000, 368.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <rect stroke="#000000" stroke-width="5" x="2.5" y="2.5" width="295" height="213"></rect>
+                <g id="Shape" mask="url(#mask-2)">
+                    <g transform="translate(33.000000, -42.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" stroke="#000000" stroke-width="5" fill="none" fill-rule="nonzero" xlink:href="#path-3"></use>
+                        <path d="M101.284476,136.381914 L94.7082415,130.399479 L94.7082415,139.487279 L94.7082415,392.691452 L77.1707351,385.507028 L77.1707351,139.487279 L77.1707351,129.934637 L70.4863685,136.483684 L-34.9446233,239.777652 C-42.0699788,206.047718 -33.4603835,180.363129 -19.2596406,161.653922 C-3.98603606,141.530934 17.9238175,129.291009 34.2988369,124.212128 L33.7134955,116.17201 L-73.1052367,100.67929 C-41.7297193,83.1998511 -18.3570409,74.7223963 0.773366204,72.3814074 C21.7615846,69.8132235 37.9362025,74.5961463 54.3767886,83.6118827 L59.3588004,77.4325083 L1.95541751,0.488486842 C36.8517081,4.69076952 59.0042643,15.2704659 72.8480917,27.6022594 C87.8131626,40.9327759 93.4085403,56.6086821 94.730714,69.4743564 L95.4130836,76.1158224 L100.815991,72.5079325 C140.505525,46.0042308 176.000905,46.131306 204.295052,56.7594119 C229.18396,66.1079643 248.697985,83.6690941 260.537005,98.924992 L149.611365,98.924992 L148.301089,106.944756 C184.318358,120.063756 202.616227,145.896049 210.994488,172.983417 C218.426262,197.009427 218.032333,222.031135 215.021024,239.851917 L101.284476,136.381914 Z" id="Shape" stroke="#000000" stroke-width="5" fill="none" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                        <ellipse id="Mask" stroke="#000000" stroke-width="5" fill="none" fill-rule="nonzero" mask="url(#mask-4)" cx="141.894153" cy="148.42361" rx="141.853646" ry="148.223759"></ellipse>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <rect stroke="#000000" stroke-width="5" x="-30.2504303" y="43.5328947" width="295.130809" height="213.842105"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
